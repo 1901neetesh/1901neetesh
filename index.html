@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neetesh Jatav — Resume</title>
+  <meta name="description" content="Resume / portfolio site for Neetesh Jatav — B.Tech in AI & ML, ML intern, projects, skills and contact." />
+  <style>
+    :root{
+      --bg:#0f1720; --card:#0b1220; --muted:#98a0b3; --accent:#7dd3fc; --glass:rgba(255,255,255,0.03);
+      --maxw:900px; font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; padding:32px; background:linear-gradient(180deg,#071027 0%, #041022 100%);
+      color:#e6eef6; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .wrap{width:100%; max-width:var(--maxw);}
+    .paper{background:linear-gradient(180deg,var(--card),#07111b); border-radius:12px; padding:28px; box-shadow:0 10px 30px rgba(2,6,23,0.7); border:1px solid rgba(255,255,255,0.03);}
+    header{display:flex; gap:20px; align-items:center; justify-content:space-between; flex-wrap:wrap}
+    .hero{display:flex; gap:18px; align-items:center}
+    .avatar{
+      width:92px; height:92px; border-radius:10px; background:linear-gradient(135deg,var(--accent),#8b5cf6);
+      display:grid; place-items:center; font-weight:700; color:#072036; font-size:28px;
+      box-shadow:0 6px 18px rgba(125,211,252,0.08);
+    }
+    h1{margin:0; font-size:20px; letter-spacing:0.2px}
+    .meta{color:var(--muted); font-size:13px}
+    .actions a{margin-left:10px; text-decoration:none; color:var(--accent); font-weight:600; font-size:13px}
+    main{display:grid; grid-template-columns:1fr 300px; gap:22px; margin-top:22px}
+    @media (max-width:900px){ main{grid-template-columns:1fr} .actions{margin-top:10px}}
+    section{background:var(--glass); padding:18px; border-radius:10px}
+    h2{margin:0 0 10px 0; font-size:15px}
+    p, li{color:#cfe6f6; margin:0; font-size:14px}
+    .muted{color:var(--muted); font-size:13px}
+    .list{display:flex; flex-direction:column; gap:12px}
+    .item-title{font-weight:700}
+    .small{font-size:13px; color:var(--muted)}
+    .badge{display:inline-block; padding:6px 8px; border-radius:8px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.02); font-size:13px}
+    .skills{display:flex; flex-wrap:wrap; gap:8px}
+    footer{margin-top:18px; text-align:center; font-size:12px; color:var(--muted)}
+    a.inline{color:var(--accent); text-decoration:none}
+    .contact{display:flex; flex-direction:column; gap:6px}
+    .project-list{display:flex; flex-direction:column; gap:8px}
+    .edu-grid{display:flex; flex-direction:column; gap:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="paper" role="document">
+      <header>
+        <div class="hero">
+          <div class="avatar">NJ</div>
+          <div>
+            <h1>Neetesh Jatav</h1>
+            <div class="meta">B.Tech — Artificial Intelligence & Machine Learning · MITS Gwalior</div>
+            <div class="muted small">Shivpuri, Madhya Pradesh · Phone: <a class="inline" href="tel:+918103054195">+91 81030 54195</a> · <a class="inline" href="mailto:neeteshworks@gmail.com">neeteshworks@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="https://github.com/1901neetesh" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://kaggle.com/neetesh1901" target="_blank" rel="noopener">Kaggle</a>
+          <a href="#download">Download PDF</a>
+        </div>
+      </header>
+
+      <main>
+        <div>
+          <section aria-labelledby="summary">
+            <h2 id="summary">Summary</h2>
+            <p class="muted">Machine learning engineer-in-training with internship experience in applied ML, strong background in XGBoost/LightGBM/CatBoost, GPU-accelerated data pipelines, and production deployment. Focus areas: Healthcare AI, Fraud/AML detection, Computer Vision.</p>
+          </section>
+
+          <section aria-labelledby="experience" style="margin-top:14px">
+            <h2 id="experience">Experience</h2>
+            <div class="list">
+              <div>
+                <div class="item-title">Machine Learning Intern — Cognifyz Technologies (Feb 2025 – Jul 2025)</div>
+                <div class="small">Remote</div>
+                <ul style="margin-top:8px">
+                  <li>Built models for restaurant rating prediction on 500k+ records using Scikit-learn & Pandas.</li>
+                  <li>Trained XGBoost, LightGBM, CatBoost; reached ~91% accuracy with Optuna hyperparameter tuning and cross-validation.</li>
+                  <li>Improved pipelines via ensemble methods, version control, and agile workflows.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section aria-labelledby="projects" style="margin-top:14px">
+            <h2 id="projects">Selected Projects</h2>
+            <div class="project-list">
+              <div>
+                <div class="item-title">Dual-Stage Predictive Modeling for ICU Risk Stratification</div>
+                <div class="small">Kaggle / MIMIC-IV — 350k+ patient records</div>
+                <p>Dual-stage ML pipeline using XGBoost/LightGBM, GPU-accelerated preprocessing (cuDF). Engineered 26 clinical features, achieved AUC 0.9755 on 70k test cases. Integrated survival analysis for interpretability.</p>
+              </div>
+
+              <div>
+                <div class="item-title">Money Laundering Detection — XGBoost + Metaheuristics</div>
+                <div class="small">GitHub</div>
+                <p>Analyzed 32M transactions from IBM AML dataset. Handled imbalance with SMOTE, optimized XGBoost hyperparameters with PSO & GWO (MEALPY), improved precision & recall significantly. Deployed containerized model with REST API and monitoring.</p>
+              </div>
+            </div>
+          </section>
+
+          <section aria-labelledby="education" style="margin-top:14px">
+            <h2 id="education">Education</h2>
+            <div class="edu-grid">
+              <div>
+                <div class="item-title">Madhav Institute of Technology & Science (MITS)</div>
+                <div class="small">B.Tech — AI & ML · Nov 2021 — Jun 2025 · CGPA: 7.96/10</div>
+              </div>
+              <div>
+                <div class="item-title">Shivpuri Public School</div>
+                <div class="small">12th PCM (CBSE) — 86.6% · 10th (CBSE) — 91.2%</div>
+              </div>
+            </div>
+          </section>
+
+          <section aria-labelledby="achievements" style="margin-top:14px">
+            <h2 id="achievements">Achievements & Certifications</h2>
+            <ul style="margin-top:8px">
+              <li>Research paper: Dual Stage Predictive Model for ICU Risk Stratification — ICSISCET 2025 (Springer Nature, Scopus indexed).</li>
+              <li>NPTEL: Blockchain & Applications (Elite), Big Data Computing (Silver), Applied Accelerated AI (Elite), User-centric HCI (Elite).</li>
+            </ul>
+          </section>
+        </div>
+
+        <aside>
+          <section aria-labelledby="contact">
+            <h2 id="contact">Contact</h2>
+            <div class="contact">
+              <div class="badge">Phone: <a class="inline" href="tel:+918103054195">+91 81030 54195</a></div>
+              <div class="badge">Email: <a class="inline" href="mailto:neeteshworks@gmail.com">neeteshworks@gmail.com</a></div>
+              <div class="badge">Location: MITS, Gwalior (Shivpuri, MP)</div>
+              <div style="margin-top:8px"><a class="inline" href="https://github.com/1901neetesh" target="_blank" rel="noopener">github.com/1901neetesh</a></div>
+              <div><a class="inline" href="https://kaggle.com/neetesh1901" target="_blank" rel="noopener">kaggle.com/neetesh1901</a></div>
+            </div>
+          </section>
+
+          <section aria-labelledby="skills" style="margin-top:12px">
+            <h2 id="skills">Skills</h2>
+            <div class="skills" style="margin-top:8px">
+              <span class="badge">Python</span>
+              <span class="badge">XGBoost / LightGBM / CatBoost</span>
+              <span class="badge">Optuna · PSO · GWO</span>
+              <span class="badge">cuDF · GPU accel.</span>
+              <span class="badge">TensorFlow · PyTorch</span>
+              <span class="badge">OpenCV · DeepLabV3</span>
+              <span class="badge">Docker · REST APIs</span>
+              <span class="badge">Git · Linux</span>
+            </div>
+          </section>
+
+          <section aria-labelledby="coursework" style="margin-top:12px">
+            <h2 id="coursework">Relevant Coursework</h2>
+            <p class="small">AI, Machine Learning, Deep Learning, Gen AI, Data Mining & Warehousing, Image Processing, DBMS, Cloud Computing, Network & Web Security</p>
+          </section>
+        </aside>
+      </main>
+
+      <footer>
+        <div id="download"><a href="#" class="inline">Resume PDF (attached)</a></div>
+        <div style="margin-top:8px" class="muted small">Content generated from the attached resume. :contentReference[oaicite:1]{index=1}</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
