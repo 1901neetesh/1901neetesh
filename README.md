@@ -17,7 +17,7 @@ Hello! I'm **Neetesh Jatav**, a passionate **Machine Learning Researcher** and *
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Languages** | Python (Expert), C/C++, SQL, Bash |
+| **Languages** | Python (Expert), C/C++, Java, SQL, Bash |
 | **ML/DL Frameworks** | TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM, CatBoost |
 | **Data Processing** | Pandas, NumPy, cuDF (GPU Acceleration) |
 | **Optimization** | Optuna, Particle Swarm Optimization (PSO), Grey Wolf Optimization (GWO) |
