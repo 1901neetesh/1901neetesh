@@ -4,7 +4,7 @@
 
 ## 👨‍💻 About Me
 
-Hello! I'm **Neetesh Jatav**, a passionate **Machine Learning Researcher** and **Freelance AI Engineer** based in **Shivpuri, Madhya Pradesh, India**. I specialize in building robust predictive models, optimizing ML pipelines, and deploying AI solutions for real-world problems in Healthcare, Finance (AML), and Computer Vision.
+Hello! I'm **Neetesh Jatav**, a passionate **Machine Learning Researcher** and **Freelance Web/AI Engineer** based in **Shivpuri, Madhya Pradesh, India**. I specialize in building robust predictive models, optimizing ML pipelines, and deploying AI solutions for real-world problems in Healthcare, Finance (AML), and Computer Vision.
 
 - 🎓 **B.Tech in Artificial Intelligence & Machine Learning** (MITS, Gwalior)
 - 💼 **Machine Learning Intern** at Cognifyz Technologies
